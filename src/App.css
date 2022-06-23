@@ -1,38 +1,50 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.My.Profile{
+  color: #8c4843 !important
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home{
+  color: #bba14f !important
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about{
+  color: #8c4843 !important
+}
+.Contact{
+  color: #8c4843 !important
+}
+.services{
+  color: #bba14f !important
+}
+.mycv{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: #a2d3c2;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+ color: #338d6c;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+color: #8c4843;
+}
+.mb-3{
+  color: antiquewhite;
+}
+.rowa{
+  color: #338d6c;
+  background-color: #bba14f;
+}
+.rowb{
+  background-color: #dff3e3;
+}
+.rowc{
+  color: #338d6c;
+}
+.rowd{
+  color: #338d6c;
+}
+.footer{
+  display: flex;
+background-color: #dff3e3;
+color: #8c4843;
 }
